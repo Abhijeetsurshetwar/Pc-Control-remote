@@ -15,7 +15,7 @@
 
  \begin{center}
  \large \textbf {A Report on}\\[2mm]
- \LARGE \textbf {"Pc Remote Controller And File Sharing"}\\[7mm]
+ \LARGE \textbf {"PC Controller Using Android device"}\\[2mm]
  
  \textbf{Submitted by :}\\[2mm]
  \end{center}
@@ -36,7 +36,7 @@
  \large \textbf {Mr.A.M.Dyade}\\[7mm]
  \textbf {in partial fulfilment for the award of the degree} \\[2mm] of \\[2mm]
  
- \large \textbf {BACHELOR OF TECHNOLOGY}\\[2mm]
+ \large \textbf {BACHELOR OF TECHNOLOGY}
  \textbf {IN}\\[2mm]
  \textbf {DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}\\
  \textbf {at}
@@ -69,15 +69,15 @@ Affiliated to Punyashlok Ahilyadevi Holkar Solapur University, Solapur\\[2mm]
  \large \textbf { SVERI's COLLEGE OF ENGINEERING , PANDHARPUR }\\[7mm]
  \textbf{CERTIFICATE}\\[7mm]
  \end{center} 
- This is to certify that the project report entitled "PC Remote Controller and File sharing"\\[2mm] is submitted for partial fulfillment of Bachelor Degree in Computer Science And Engi\\[2mm]neering as per requirement of Punyashlok Ahilyadevi Holkar Solapur University, Solapur\\[2mm] for the academic year 2023-2024.\\[30mm] 
+ This is to certify that the project report entitled "PC Remote Controller Using Android device" is submitted for partial fulfillment of Bachelor Degree in Computer Science And Engneering as per requirement of Punyashlok Ahilyadevi Holkar Solapur University, Solapur for the academic year 2023-2024.\\[30mm] 
  
 
  
  \begin{tabular}{ c c c } 
  \textbf{( Mr.A.M.DYADE)} & \hspace{2.0in} & \textbf{( Mr.P.D.MANE )} \\ [1mm] 
  \textbf {Project Guide} & \hspace{2.0in} & \textbf{Project Coordinator}\\[30mm]
- \textbf{( Dr.S.P.PAWAR )} & \hspace{2.0in}  & \textbf{Dr.B.P.RONGE}\\[1mm]
- \textbf{(HOD , CSE )} & \hspace{2.0in}  & \textbf{ PRINCIPAL }\\[30mm]
+ \textbf{( Dr.S.P.PAWAR )} & \hspace{2.0in}  & \textbf{(Dr.B.P.RONGE)}\\[1mm]
+ \textbf{HOD , CSE } & \hspace{2.0in}  & \textbf{ PRINCIPAL }\\[30mm]
  \end{tabular}
  
  \begin{center}
@@ -135,8 +135,7 @@ Last but not the least , Ms.T.A.Dhumal supervisor of Project Lab and Mr.P.D.Mane
 
 \begin{tabular}{ c c c c } 
   
-\textbf{Introduction} & \hspace{2.5in}  & \textbf{5} \\ [5mm] 
-\textbf{Research Paper} & \hspace{2.5in}  & \textbf{6} \\ [5mm] 
+\textbf{Introduction} & \hspace{2.5in}  & \textbf{5} \\ [5mm]  
   \textbf{Literature Survey} & \hspace{2.5in}  & \textbf{9} \\ [5mm]
   \textbf{System Analysis} & \hspace{2.5in}  & \textbf{10} \\ [5mm] 
   \textbf{Methodology} & \hspace{2.5in}  & \textbf{11} \\ [5mm] 
@@ -152,7 +151,7 @@ Last but not the least , Ms.T.A.Dhumal supervisor of Project Lab and Mr.P.D.Mane
 
 	
 \begin{center}
- \LARGE \textbf {Chapter 1 }\\[10mm]
+ 
  \Large \textbf{INTRODUCTION}\\[10mm]
 \begin{tikzpicture}
 [remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
@@ -191,112 +190,10 @@ larger files.\\[10mm]\par
 
 
 
-\begin{center}
-\begin{tikzpicture}
-[remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
-\end{tikzpicture} 
-\begin{tikzpicture}
-[remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
-\end{tikzpicture} 
- \LARGE \textbf {Chapter 2 }\\[10mm]
- \Large \textbf{Research Paper}\\[10mm]
- \end{center}
-In the scope of remote control there are several projects and initiatives designed to
-allow remote control between devices. Although most of the architectures have the
-objective of control remotely PCs\par
-\textbf{[1]} For Instance we have one software Gmote : This is an Android remote application
-that is used to control a VideoLan Client (also known as VLC) media player, with basic
-choices such as play, pause, stop, forward track and backward track.However, this
-remote application has its limitation in controlling one program. It is separated into 4
-parts:
-
-\textbf. GmoteClient: An android application that is installed on a phone.
-
-\textbf. GmoteServer: A server application that is installed on a user's computer. It
-receives commands from the GmoteClient and executes those functions by
-interacting with different parts of the computer, such as the file system or a
-media player.
-
-\textbf. GmoteCommon: Stores files that are common to both the gmote client and
-server. This includes a set of Serializable objects that get exchanged between
-two to facilitate communication. Important: Since this code is shared, it must
-only use language features that are compatible with both the Android SDK
-and a java SDK\par
-\clearpage
-
-\begin{tikzpicture}
-[remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
-\end{tikzpicture} 
-\textbf{[2]} Remote mouse android application use a client-server architecture and specific
-communication protocols.
-Client-Server Architecture: 
-	\textbf{1]} Client (Android Device)
-	\textbf{2]} Server (Computer)
-. Remote Control Protocol use Proprietary standardized remote control
-protocol
-. Communication between Android client and the computer server
-
-typically uses TCP/IP protocol.
-Commands such as mouse movements and keyboards are encoded and sent from client
-to server. Server decodes that commands and executes corresponding action\par
-\textbf{[3]} Gonzalez Villan project is all about an Android application for Remote Desktop
-Control. ADB (Android Debug Bridge) is configured on the device then it provides service
-of server for communication with this protocol. Android Debug Bridge is used mostly for
-communication between targeted PC and Android mobile. The communication between
-client and server using the RFB protocol consists of Handshake, initialization, and Normal
-interaction
-The ADB protocol can be transported over USB or over Wi-Fi through TCP. It uses
-a client-server architecture. There are two different protocols in use. The first is between
-the client and the server and the second is between the server and the daemon. The
-daemon is facilitated by the Android USB framework.
-
-The communication mode between the client and server is a TCP socket. The server
-listens on a port, to which the client has to send a request. The request contains a 4-byte
-initial field in ASCII and a payload. The payload starts with the word host, to indicate it
-should be sent to the server. The server can then reply with OKAY or FAIL to indicate the
-status, combined with an optional payload and length.
-\clearpage
-\begin{tikzpicture}
-[remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
-\end{tikzpicture}
-The messages sent from the server consist of a 24-byte long header, with the following
-fields:
-
-\par\textbf{.} Command
-\par\textbf{.} First argument
-\par\textbf{.} Second argument
-\par\textbf{.} Length of the payload, 0 or higher
-\par\textbf{.} CRC-32 of the data payload
-\par\textbf{.} Magic value, calculated through command XOR 0xFFFFFFFF
-For ADB USB Debugging is required and Connection is depend upon drivers. The ADB is
-Command Line Tool which have complexity
-\par\textbf{[4]}H.Kawashima-In this paper aim at the adoption of desktop virtualization and
-developed a web-based interface following the cloud computing concept. In this they
-implemented a sketch of clientless remote desktop based on Google Web Toolkit
-framework. The remote desktop can be accessed from any OS platform through any
-HTML5 compliant browser. They plan to reduce the communication overhead in the
-cloud.
-It Uses :
-\textbf{1]} RDP (Remote Desktop Access)-It is windows based protocol and Developed by
-Microsoft
-\textbf{2]} VNC (Virtual Network Computing)-It is an Open source protocol that allows remote
-control desktop.\par
-\textbf{[5}] VNC -: The most popular system designed to perform remote control of devices is
-Virtual Networking Computing. There are a large number of
-implementations to this solution including applied to Android software
-stack. It has an open protocol
-VNC System is based on RFB(Remote Frame Buffer) which transmits all information The
-VNC system is compound by a server side and some thin clients that connect remotely to
-the server and send requests to the server to retrieve updates of the remote controlled
-device.
-The limiting factor of bandwidth is a problem due to the amount of that that is sent,
-above all because of the latency in the network
-
-\clearpage
 
 
 \begin{center}
- \LARGE \textbf {Chapter 3 }\\[10mm]
+ 
  \Large \textbf{LITERATURE SURVEY}\\[10mm]
  \end{center}
  \section{LITERATURE SURVEY}\par
@@ -327,7 +224,7 @@ previously only conceived in PC architectures or similar devices.
 
 
 \begin{center}
- \LARGE \textbf {Chapter 4 }\\[10mm]
+
 \Large \textbf{SYSTEM ANALYSIS AND DESIGN}\\[10mm]
  \end{center}
 
@@ -348,8 +245,32 @@ previously only conceived in PC architectures or similar devices.
 \end{tikzpicture} 
 \clearpage
 
+
+
 \begin{center}
- \LARGE \textbf {Chapter 5 }\\[10mm]
+
+\Large \textbf{ADVANTAGES}\\[10mm]
+ \end{center}
+
+ \section{Advantages}
+
+ \subsection{Requirement Specification }\par
+ \hspace{6.5mm}\textbf{i)}Mobile Platform : Android \par
+\textbf{ii)}Application development framework : Android (Android Studio) \par
+\textbf{iii)}Developing language : JAVA \par
+\textbf{iv)}User Interface Language: XML\par
+\textbf{v)}Android API level : 10 and above\par
+\textbf{vi)}Wireless Communication Medium : WIFI\par 
+
+
+
+\begin{tikzpicture}
+[remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
+\end{tikzpicture} 
+\clearpage
+
+\begin{center}
+
  \Large \textbf{METHODOLOGY }\\[10mm]
  \end{center}
  \section{Methodology }
@@ -424,7 +345,7 @@ proceed with the application\par
 
 
 \begin{center}
- \LARGE \textbf {Chapter 6 }\\[5mm]
+
  \Large \textbf{EXPERIMENTAL RESULTS / OUTPUTS }\\[5mm]
  \end{center}
  
@@ -464,7 +385,7 @@ proceed with the application\par
 [remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
 \end{tikzpicture} 
 \begin{center}
- \LARGE \textbf {Chapter 7 }\\[10mm]
+
  \Large \textbf{CONCLUSION AND FUTURE SCOPE }\\[10mm]
  \end{center}
  \large \textbf{CONCLUSION :}\\[3mm]\par
@@ -490,7 +411,7 @@ computer without the keyboard and mouse been connected.
 [remember picture,overlay]\draw[line width = 1pt]($(current page.north west)+(0.5 in,-0.5in)$) rectangle ($(current page.south east)+(-0.5 in,1 in)$);
 \end{tikzpicture} 
 \begin{center}
-\LARGE \textbf {Chapter 8 }\\[5mm]
+
 \LARGE \textbf{References }\\[5mm]
 \end{center}
 
